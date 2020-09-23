@@ -9,9 +9,6 @@
         
         <link href="http://meetingroom.rid.go.th/assets/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet">
 
-
-
-
         <title>Laravel</title>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">

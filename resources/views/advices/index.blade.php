@@ -47,7 +47,7 @@
 @csrf
 @method('DELETE')
 <button type="submit"value='ลบ' class="btn btn-danger"
-onclick="return confirm('คุณต้องการลบข้อมูลห้องที่หรือไม่ ')">ลบ</button>
+onclick="return confirm('คุณต้องการลบข้อมูลห้องหรือไม่ ')">ลบ</button>
 </form>
 </td>
 </tr>

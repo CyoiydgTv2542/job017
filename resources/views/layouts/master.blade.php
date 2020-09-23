@@ -81,9 +81,9 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="home" class="brand-link">
-      <img src="{{ asset('dist/img/AdminLTELogo.png')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+      <img src="{{ asset('images/logo.png')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">ระบบการจองห้อง</span>
+      <span class="brand-text font-weight-light">ระบบการจองห้องประชุมของมหาวิทยาลัยราชภัฏราชนคริทร์</span>
     </a>
 
     <!-- Sidebar -->
@@ -130,6 +130,16 @@
                   <i class="nav-icon fas fa-copy"></i>
                   <p>
                     บันทึกข้อมูลอุปกรณ์
+                    <span class="badge badge-info right"></span>
+                  </p>
+                </a>
+              </li>
+
+              <li class="nav-item has-treeview">
+                <a href="patterns" class="nav-link">
+                  <i class="nav-icon fas fa-copy"></i>
+                  <p>
+                    บันทึกข้อมูลรูปแบบห้อง
                     <span class="badge badge-info right"></span>
                   </p>
                 </a>

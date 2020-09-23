@@ -29,7 +29,7 @@ Route::put('/role-register-update/{id}','Admin\DashboardController@registerupdat
 
 Route::delete('/role-delete/{id}','Admin\DashboardController@registerdelete');
 
-
+//หน้าบันทึกข้อมูล
 Route::resource('rooms','RoomController');
-
 Route::resource('advices','AdviceController');
+Route::resource('patterns','PatternController');
