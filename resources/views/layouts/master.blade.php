@@ -125,6 +125,16 @@
                 </a>
               </li>
 
+              <li class="nav-item has-treeview">
+                <a href="advices" class="nav-link">
+                  <i class="nav-icon fas fa-copy"></i>
+                  <p>
+                    บันทึกข้อมูลอุปกรณ์
+                    <span class="badge badge-info right"></span>
+                  </p>
+                </a>
+              </li>
+
                 <li class="nav-item has-treeview">
                     <a href="role-register" class="nav-link">
                       <i class="nav-icon fas fa-copy"></i>

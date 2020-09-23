@@ -30,13 +30,6 @@ Route::put('/role-register-update/{id}','Admin\DashboardController@registerupdat
 Route::delete('/role-delete/{id}','Admin\DashboardController@registerdelete');
 
 
-Route::resource('rooms','roomController');
+Route::resource('rooms','RoomController');
 
-//fullcalender
-Route::get('/fullcalendareventmaster','FullCalendarEventMasterController@index');
-Route::post('/fullcalendareventmaster/create','FullCalendarEventMasterController@create');
-Route::post('/fullcalendareventmaster/update','FullCalendarEventMasterController@update');
-Route::post('/fullcalendareventmaster/delete','FullCalendarEventMasterController@destroy');
-
-
-
+Route::resource('advices','AdviceController');
