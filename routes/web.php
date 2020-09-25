@@ -33,3 +33,6 @@ Route::delete('/role-delete/{id}','Admin\DashboardController@registerdelete');
 Route::resource('rooms','RoomController');
 Route::resource('advices','AdviceController');
 Route::resource('patterns','PatternController');
+
+//ฟอร์มกรอกข้อมูล
+Route::get('/form','FormController@index')->name('form');
