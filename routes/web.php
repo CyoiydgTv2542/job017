@@ -36,3 +36,5 @@ Route::resource('patterns','PatternController');
 
 //ฟอร์มกรอกข้อมูล
 Route::get('/form','FormController@index')->name('form');
+
+Route::resource('bookings','BookingController');
