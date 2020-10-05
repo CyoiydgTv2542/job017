@@ -7,9 +7,11 @@
 <div class="card">
 <div class="card-header">
 
-<div class="pull-left">
-<h2>แก้ไขห้องประชุม</h2>
-</div>
+<div class="card card-info">
+    <div class="card-header">
+    <label class="card-title">แก้ไขห้องประชุม</label>
+    </div>
+    </div>
 <div class="pull-right">
 <a class="btn btn-primary" href="{{ route('advices.index') }}"> Back</a>
 </div>

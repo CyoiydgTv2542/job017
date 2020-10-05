@@ -6,8 +6,13 @@
 <div class="col-lg-12 margin-tb">
 <div class="card">
 <div class="card-header">
-<center><h2> รายละเอียด </h2></center>
 
+<div class="card card-info">
+    <div class="card-header">
+    <label class="card-title">รายละเอียด</label>
+    </div>
+    </div>
+    
 <div class="pull-right">
 <a class="btn btn-primary" href="{{ route('rooms.index') }}"> ย้อนกลับ</a>
 </div>

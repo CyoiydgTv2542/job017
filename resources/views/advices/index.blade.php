@@ -7,10 +7,11 @@
 <div class="card">
 <div class="card-header">
 
-<div class="pull-left">
-<h2>อุปกรณ์</h2>
-</div>
-
+<div class="card card-info">
+    <div class="card-header">
+    <label class="card-title">อุปกรณ์</label>
+    </div>
+    </div>
 <div class="pull-right">
 <a class="btn btn-success" href="{{ route('advices.create') }}"> เพิ่มข้อมูล </a>
 </div>

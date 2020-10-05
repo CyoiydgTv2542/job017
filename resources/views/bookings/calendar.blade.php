@@ -24,6 +24,11 @@
 <body class="hold-transition sidebar-mini">
 <div class="row">
 <div class="col-md-3">
+  <div class="card card-info">
+    <div class="card-header">
+    <label class="card-title">calendar</label>
+    </div>
+    </div>
 <div class="sticky-top mb-3">
 <div id="external-events">
 </label>

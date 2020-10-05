@@ -7,9 +7,11 @@
 <div class="card">
 <div class="card-header">
 
-<div class="pull-left">
-<h2>รูปแบบการจัดห้องประชุม</h2>
-</div>
+<div class="card card-info">
+    <div class="card-header">
+    <label class="card-title">รูปแบบการจัดห้องประชุม</label>
+    </div>
+    </div>
 
 <div class="pull-right">
 <a class="btn btn-success" href="{{ route('patterns.create') }}"> เพิ่มข้อมูล </a>

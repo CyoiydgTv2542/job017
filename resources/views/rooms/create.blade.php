@@ -7,10 +7,12 @@
 <div class="card">
 <div class="card-header">
     
-<div class="pull-left">
-    <center><h2>บันทึกข้อมูล</h2> </center>
-</div>
-
+<div class="card card-info">
+    <div class="card-header">
+    <label class="card-title">บันทึกข้อมูล</label>
+    </div>
+    </div>
+    
 <div class="pull-right">
 <a class="btn btn-primary" href="{{ route('rooms.index') }}"> ย้อนกลับ</a>
 </div>

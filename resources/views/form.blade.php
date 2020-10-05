@@ -7,27 +7,24 @@
 <div class="col-lg-12 margin-tb">
 <div class="card">
 
-    <div class="card card-info">
-        <div class="card-header">
-          <label class="card-title">รายละเอียดการจองห้องประชุม</label>
-        </div>
-        </div>
+<div class="card card-info">
+<div class="card-header">
+<label class="card-title">รายละเอียดการจองห้องประชุม</label>
+</div>
+</div>
 <div class="card-body">
 <div class="row">  
-    <div class="card card-info">      
+<div class="card card-info">      
 <div class="card-header">
-    <h3 class="card-title">ผู้จอง</h3>
-    </div>
-    </div>
-
-
-
-    <div class="col-xs-12 col-sm-12 col-md-12">
-        <div class="form-group">
-        <label> หน่วยงาน  </label>
-        <input type="text" name="coderoom" class="form-control" placeholder="หน่วยงาน">
-        </div>
-        </div>
+<h3 class="card-title">ผู้ขอใช้ห้อง</h3>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12">
+<div class="form-group">
+<label> หน่วยงาน  </label>
+<input type="text" name="coderoom" class="form-control" placeholder="หน่วยงาน">
+</div>
+</div>
 <div class="col-xs-12 col-sm-12 col-md-12">
 <div class="form-group">
 <label> ชื่อ  </label>
@@ -71,23 +68,13 @@ data-inputmask="'mask': ['999-999-9999 ']" data-mask>
 <label class="card-title">รายละเอียดและวันที่จอง</label>
 </div>
 </div>
-<!-- select -->
+
 <div class="col-xs-12 col-sm-12 col-md-12">
-<div class="form-group">
-<label>ห้องประชุม</label>
-<select class="form-control">
-<option> เจ้าเสวย</option>
-<option> กาละเกด</option>
-<option> 3</option>
-<option> 4</option>
-<option> 5</option>
-</div>
-<div class="col-xs-12 col-sm-12 col-md-12">
-<div class="form-group">
-<label for="exampleInputPassword1">จำนวนผู้เข้าร่วม</label>
-<input type="num" class="form-control" id="exampleInputPassword1" placeholder="จำนวนผู้เข้าร่วม">
-</div>
-</div>
+  <div class="form-group">
+  <label> จำนวนผู้เข้าร่วมงาน  </label>
+  <input type="text" name="coderoom" class="form-control" placeholder="ตำแหน่ง">
+  </div>
+  </div>
 <!-- Date and time range -->
 <div class="col-xs-12 col-sm-12 col-md-12">
 <div class="form-group">
