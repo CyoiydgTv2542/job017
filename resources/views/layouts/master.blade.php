@@ -83,7 +83,7 @@
     <a href="home" class="brand-link">
       <img src="{{ asset('images/logo.png')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">ระบบการจองห้องประชุมของมหาวิทยาลัยราชภัฏราชนคริทร์</span>
+      <span class="brand-text font-weight-l0ight">ระบบการจองห้องประชุมของมหาวิทยาลัยราชภัฏราชนคริทร์</span>
     </a>
 
     <!-- Sidebar -->
@@ -146,6 +146,16 @@
               </li>
 
               <li class="nav-item has-treeview">
+                <a href="bookings" class="nav-link">
+                  <i class="nav-icon fas fa-copy"></i>
+                  <p>
+                    เก็บข้อมูลแบบฟอร์ม
+                    <span class="badge badge-info right"></span>
+                  </p>
+                </a>
+              </li>
+
+              <li class="nav-item has-treeview">
                 <a href="form" class="nav-link">
                   <i class="nav-icon fas fa-copy"></i>
                   <p>
@@ -154,6 +164,8 @@
                   </p>
                 </a>
               </li>
+              
+              <!--
               <li class="nav-item has-treeview">
                 <a href="bookings" class="nav-link">
                   <i class="nav-icon fas fa-copy"></i>
@@ -163,15 +175,7 @@
                   </p>
                 </a>
               </li>
-              <li class="nav-item has-treeview">
-                <a href="select" class="nav-link">
-                  <i class="nav-icon fas fa-copy"></i>
-                  <p>
-                    หน้าจอง
-                    <span class="badge badge-info right"></span>
-                  </p>
-                </a>
-              </li>
+              -->
 
                 <li class="nav-item has-treeview">
                     <a href="role-register" class="nav-link">

@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Booking;
 use Illuminate\Http\Request;
 
 class BookingController extends Controller
@@ -12,7 +13,8 @@ class BookingController extends Controller
      */
     public function index()
     {
-        return view('bookings.calendar');
+        $bookings = Booking::orderby('id','asc')->get();
+        return view('bookings.index',compact('bookings'));
     }
 
     /**

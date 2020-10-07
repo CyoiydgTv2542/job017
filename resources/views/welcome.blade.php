@@ -9,7 +9,7 @@
         
         <link href="http://meetingroom.rid.go.th/assets/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet">
 
-        <title>Laravel</title>
+        <title>laravel</title>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <!-- Styles -->
@@ -85,8 +85,7 @@
             <div class="content">
                 <div class="title m-b-md">
                     <div class="logo" align="center">
-                        <img src="images/logo.png" width=100 alt="Responsive image" class="img-responsive">
-                    
+                        <img src="images/logo.png" width=100 alt="Responsive image" class="img-responsive">                  
                     ระบบการจองห้องประชุม
                     </div>
                 </div>

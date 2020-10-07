@@ -8,10 +8,10 @@
 <div class="card-header">
 
 <div class="card card-info">
-    <div class="card-header">
-    <label class="card-title">ห้องประชุม</label>
-    </div>
-    </div>
+<div class="card-header">
+<label class="card-title">ห้องประชุม</label>
+</div>
+</div>
 
 <div class="pull-right">
 <a class="btn btn-success" href="{{ route('rooms.create') }}"> เพิ่มข้อมูล </a>

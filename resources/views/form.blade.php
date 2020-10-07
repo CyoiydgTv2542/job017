@@ -22,25 +22,25 @@
 <div class="col-xs-12 col-sm-12 col-md-12">
 <div class="form-group">
 <label> หน่วยงาน  </label>
-<input type="text" name="coderoom" class="form-control" placeholder="หน่วยงาน">
+<input type="text" name="agency" class="form-control" placeholder="หน่วยงาน">
 </div>
 </div>
 <div class="col-xs-12 col-sm-12 col-md-12">
 <div class="form-group">
 <label> ชื่อ  </label>
-<input type="text" name="coderoom" class="form-control" placeholder="ชื่อ">
+<input type="text" name="fname" class="form-control" placeholder="ชื่อ">
 </div>
 </div>
 <div class="col-xs-12 col-sm-12 col-md-12">
 <div class="form-group">
 <label> นามสกุล  </label>
-<input type="text" name="coderoom" class="form-control" placeholder="นามสกุล">
+<input type="text" name="lname" class="form-control" placeholder="นามสกุล">
 </div>
 </div>
 <div class="col-xs-12 col-sm-12 col-md-12">
 <div class="form-group">
 <label> ตำแหน่ง  </label>
-<input type="text" name="coderoom" class="form-control" placeholder="ตำแหน่ง">
+<input type="text" name="rank" class="form-control" placeholder="ตำแหน่ง">
 </div>
 </div>
 <div class="col-xs-12 col-sm-12 col-md-12">
@@ -57,7 +57,7 @@
 <div class="input-group-prepend">
 <span class="input-group-text"><i class="fas fa-phone"></i></span>
 </div>
-<input type="text" class="form-control"
+<input type="text" name='pnum' class="form-control"
 data-inputmask="'mask': ['999-999-9999 ']" data-mask>
 </div>
 </div>
@@ -72,14 +72,14 @@ data-inputmask="'mask': ['999-999-9999 ']" data-mask>
 <div class="col-xs-12 col-sm-12 col-md-12">
   <div class="form-group">
   <label> จำนวนผู้เข้าร่วมงาน  </label>
-  <input type="text" name="coderoom" class="form-control" placeholder="ตำแหน่ง">
+  <input type="text" name="numpeople" class="form-control" placeholder="ตำแหน่ง">
   </div>
   </div>
 <!-- Date and time range -->
 <div class="col-xs-12 col-sm-12 col-md-12">
 <div class="form-group">
 <label>เวลาในการจอง</label>
-  <div class="input-group">
+<div class="input-group">
 <div class="input-group-prepend">
 <span class="input-group-text"><i class="far fa-clock"></i></span>
 </div>
