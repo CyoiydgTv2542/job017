@@ -6,9 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Booking extends Model
 {
-    protected $table = 'booking';
+    protected $table = 'bookings';
     protected $fillable = [
-        'name', 'agency','fname','lname','rank'
-        ,'pnum','numpeople','start_date','end_date','even','pattern','advice'
+'agency','fname','lname','rank','pnum','numpeople','start_date','end_date','even','pattern','advice'
        ];
 }

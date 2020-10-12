@@ -12,8 +12,28 @@
 <label class="card-title">รายละเอียดการจองห้องประชุม</label>
 </div>
 </div>
+
+   <div class="pull-right">
+    <a class="btn btn-primary" href="{{ route('bookings.index') }}"> ย้อนกลับ </a>
+    </div>
+     
+
+    @if ($errors->any())
+<div class="alert alert-danger">
+<strong>Whoops!</strong> การเพิ่มข้อมูลผิดพลาด <br><br>
+<ul>
+@foreach ($errors->all() as $error)
+<li>{{ $error }}</li>
+@endforeach
+</ul>
+</div>
+@endif
+<form action="{{ route('bookings.store') }}" method="POST">
+@csrf
+
 <div class="card-body">
-<div class="row">  
+<div class="row"> 
+
 <div class="card card-info">      
 <div class="card-header">
 <h3 class="card-title">ผู้ขอใช้ห้อง</h3>
@@ -146,19 +166,22 @@ data-inputmask="'mask': ['999-999-9999 ']" data-mask>
 </div>
 </div>
 </div>
-<!-- button ตกลง/ยกเลิก -->
+<!-- button ตกลง/ยกเลิก-->
 <div class="col-xs-12 col-sm-12 col-md-12">
 <div class="form-group form-check">
 <input type="checkbox" class="form-check-input" id="exampleCheck1">
 <label class="form-check-label" for="exampleCheck1">ยืนยันการจอง</label>
-</div>
+</div> 
 <button type="submit" class="btn btn-primary"> ตกลง </button>
 <button type="submit" class="btn btn-default "> ยกเลิกการจอง </button>
 </div>
 
 </div>
 </div>
+
 </div>
+</div>
+
 </div>
 </div>
 </div>

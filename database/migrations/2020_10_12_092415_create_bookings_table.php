@@ -21,8 +21,8 @@ class CreateBookingsTable extends Migration
             $table->string('rank');
             $table->integer('pnum');
             $table->integer('numpeople');
-            $table->date('start_date');
-            $table->date('end_date');
+            $table->string('start_date');
+            $table->string('end_date');
             $table->string('even');
             $table->string('pattern');
             $table->string('advice');
